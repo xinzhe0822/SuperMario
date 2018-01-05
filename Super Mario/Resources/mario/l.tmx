@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" renderorder="right-down" width="120" height="20" tilewidth="32" tileheight="32">
+ <tileset firstgid="1" name="beijing1" tilewidth="32" tileheight="32">
+  <image source="beijing1.png" width="32" height="32"/>
+ </tileset>
+ <layer name="块层 1" width="120" height="20">
+  <data encoding="base64" compression="zlib">
+   eJzt08ENwDAMAzFn/6W7QZqvDySgCQ46M3MuY7dbW433++uq727+2/baV+edXvr68V76tunbpm+bvm36tunbpm2bvm36tunbpm+btm36tmnb9gE4bQDG
+  </data>
+ </layer>
+</map>
