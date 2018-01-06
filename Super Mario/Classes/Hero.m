@@ -13,29 +13,11 @@
 @implementation Hero
 
 static Hero* heroInstance= nil;
->>>>>>> upstream/master
 
 - (instancetype)init
 {
     self = [super init];
-<<<<<<< HEAD
-    NSAssert(self, @"Unable to create class %@", [self class]);
-    // class initalization goes here
-    
-    
-    
-    
-    return self;
-}
 
-// -----------------------------------------------------------------
-
-@end
-
-
-
-
-=======
     if (self) {
         self.mainBody = nil;
         self.mainTemp = nil;
@@ -636,5 +618,4 @@ static Hero* heroInstance= nil;
 }
 
 @end
->>>>>>> upstream/master
 

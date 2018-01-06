@@ -77,4 +77,3 @@
 +(Hero*) getHeroInstance;
 
 @end
->>>>>>> upstream/master
