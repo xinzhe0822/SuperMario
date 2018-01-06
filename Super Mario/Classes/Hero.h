@@ -1,5 +1,3 @@
-//
-//  Hero.h
 //  Super Mario
 //
 //  Created by 周新哲 on 2018/1/6.
