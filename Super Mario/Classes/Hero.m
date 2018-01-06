@@ -1,5 +1,3 @@
-//
-//  Hero.m
 //  Super Mario
 //
 //  Created by 周新哲 on 2018/1/6.
@@ -19,6 +17,7 @@ static Hero* heroInstance= nil;
 - (instancetype)init
 {
     self = [super init];
+
     if (self) {
         self.mainBody = nil;
         self.mainTemp = nil;

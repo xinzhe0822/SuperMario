@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0F2E77542000A9260057981D /* AnimationManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F2E77532000A9260057981D /* AnimationManager.m */; };
+		0F2E77582000C3380057981D /* Enemy.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F2E77572000C3380057981D /* Enemy.m */; };
+		0F2E775B2000CE5E0057981D /* Hero.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F2E775A2000CE5E0057981D /* Hero.m */; };
+		0F2E775E2000CF8C0057981D /* GameMap.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F2E775D2000CF8C0057981D /* GameMap.m */; };
 		273E8CA81FF38FA300AB4EA8 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 273E8CA71FF38FA300AB4EA8 /* Default.png */; };
 		273E8CAA1FF38FA300AB4EA8 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 273E8CA91FF38FA300AB4EA8 /* Default@2x.png */; };
 		273E8CAC1FF38FA300AB4EA8 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 273E8CAB1FF38FA300AB4EA8 /* Default-568h@2x.png */; };
@@ -204,7 +208,6 @@
 		273E8F591FF38FA500AB4EA8 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 273E8F581FF38FA500AB4EA8 /* main.m */; };
 		273E8F5D1FF38FA500AB4EA8 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 273E8F5C1FF38FA500AB4EA8 /* AppDelegate.m */; };
 		273E8F621FF38FA500AB4EA8 /* white_square.png in Resources */ = {isa = PBXBuildFile; fileRef = 273E8F611FF38FA500AB4EA8 /* white_square.png */; };
-		273E8F6C1FF390B300AB4EA8 /* mario in Resources */ = {isa = PBXBuildFile; fileRef = 273E8F6B1FF390B200AB4EA8 /* mario */; };
 		274106531FFD0F78001C2F35 /* MainMenu.m in Sources */ = {isa = PBXBuildFile; fileRef = 274106521FFD0F78001C2F35 /* MainMenu.m */; };
 		274106E61FFD1778001C2F35 /* BossHuoQiu.ogg in Resources */ = {isa = PBXBuildFile; fileRef = 274106541FFD1759001C2F35 /* BossHuoQiu.ogg */; };
 		274106E71FFD1778001C2F35 /* bulletBorder.png in Resources */ = {isa = PBXBuildFile; fileRef = 274106551FFD175A001C2F35 /* bulletBorder.png */; };
@@ -353,18 +356,20 @@
 		274107761FFD1778001C2F35 /* select5.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 274106E41FFD1778001C2F35 /* select5.jpg */; };
 		274107771FFD1778001C2F35 /* WalkLeft_fire.png in Resources */ = {isa = PBXBuildFile; fileRef = 274106E51FFD1778001C2F35 /* WalkLeft_fire.png */; };
 		277148851FF4E4140091B974 /* GameScene.m in Sources */ = {isa = PBXBuildFile; fileRef = 277148841FF4E4140091B974 /* GameScene.m */; };
-		2771488A1FF5E0290091B974 /* Entity.m in Sources */ = {isa = PBXBuildFile; fileRef = 277148891FF5E0290091B974 /* Entity.m */; };
-		2771488E1FF5E9250091B974 /* Mary.m in Sources */ = {isa = PBXBuildFile; fileRef = 2771488D1FF5E9250091B974 /* Mary.m */; };
-		277148911FF6269F0091B974 /* MoveController.m in Sources */ = {isa = PBXBuildFile; fileRef = 277148901FF6269F0091B974 /* MoveController.m */; };
-		277148931FF63C0E0091B974 /* Controller.m in Sources */ = {isa = PBXBuildFile; fileRef = 277148921FF63C0E0091B974 /* Controller.m */; };
-		277148951FF63CE20091B974 /* ControllerListener.m in Sources */ = {isa = PBXBuildFile; fileRef = 277148941FF63CE20091B974 /* ControllerListener.m */; };
 		2775F1551FFFF40400102FD3 /* AboutMenu.m in Sources */ = {isa = PBXBuildFile; fileRef = 2775F1541FFFF40400102FD3 /* AboutMenu.m */; };
 		2775F159200002F000102FD3 /* Global.m in Sources */ = {isa = PBXBuildFile; fileRef = 2775F158200002F000102FD3 /* Global.m */; };
 		2775F15C20000B0600102FD3 /* SelectMenu.m in Sources */ = {isa = PBXBuildFile; fileRef = 2775F15B20000B0600102FD3 /* SelectMenu.m */; };
-		2775F15F2000189700102FD3 /* GameLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 2775F15E2000189700102FD3 /* GameLayer.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0F2E77522000A9260057981D /* AnimationManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = AnimationManager.h; path = Classes/AnimationManager.h; sourceTree = "<group>"; };
+		0F2E77532000A9260057981D /* AnimationManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = AnimationManager.m; path = Classes/AnimationManager.m; sourceTree = "<group>"; };
+		0F2E77562000C3380057981D /* Enemy.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = Enemy.h; path = Classes/Enemy.h; sourceTree = "<group>"; };
+		0F2E77572000C3380057981D /* Enemy.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = Enemy.m; path = Classes/Enemy.m; sourceTree = "<group>"; };
+		0F2E77592000CE5E0057981D /* Hero.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = Hero.h; path = Classes/Hero.h; sourceTree = "<group>"; };
+		0F2E775A2000CE5E0057981D /* Hero.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = Hero.m; path = Classes/Hero.m; sourceTree = "<group>"; };
+		0F2E775C2000CF8C0057981D /* GameMap.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = GameMap.h; path = Classes/GameMap.h; sourceTree = "<group>"; };
+		0F2E775D2000CF8C0057981D /* GameMap.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = GameMap.m; path = Classes/GameMap.m; sourceTree = "<group>"; };
 		273E8CA01FF38FA300AB4EA8 /* Super Mario.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Super Mario.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		273E8CA41FF38FA300AB4EA8 /* libObjectiveChipmunk.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libObjectiveChipmunk.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		273E8CA71FF38FA300AB4EA8 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Default.png; path = Resources/Default.png; sourceTree = "<group>"; };
@@ -819,7 +824,6 @@
 		273E8F5B1FF38FA500AB4EA8 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = Classes/AppDelegate.h; sourceTree = "<group>"; };
 		273E8F5C1FF38FA500AB4EA8 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = Classes/AppDelegate.m; sourceTree = "<group>"; };
 		273E8F611FF38FA500AB4EA8 /* white_square.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = white_square.png; path = Resources/white_square.png; sourceTree = "<group>"; };
-		273E8F6B1FF390B200AB4EA8 /* mario */ = {isa = PBXFileReference; lastKnownFileType = folder; name = mario; path = Resources/mario; sourceTree = "<group>"; };
 		274106511FFD0E3E001C2F35 /* MainMenu.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = MainMenu.h; path = Classes/MainMenu.h; sourceTree = "<group>"; };
 		274106521FFD0F78001C2F35 /* MainMenu.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = MainMenu.m; path = Classes/MainMenu.m; sourceTree = "<group>"; };
 		274106541FFD1759001C2F35 /* BossHuoQiu.ogg */ = {isa = PBXFileReference; lastKnownFileType = file; name = BossHuoQiu.ogg; path = Resources/BossHuoQiu.ogg; sourceTree = "<group>"; };
@@ -970,16 +974,6 @@
 		274106E51FFD1778001C2F35 /* WalkLeft_fire.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = WalkLeft_fire.png; path = Resources/WalkLeft_fire.png; sourceTree = "<group>"; };
 		277148841FF4E4140091B974 /* GameScene.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = GameScene.m; path = Classes/GameScene.m; sourceTree = "<group>"; };
 		277148861FF4FBD60091B974 /* GameScene.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GameScene.h; path = Classes/GameScene.h; sourceTree = "<group>"; };
-		277148871FF5DE710091B974 /* Mary.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = Mary.h; path = Classes/Mary.h; sourceTree = "<group>"; };
-		277148881FF5DEE40091B974 /* Entity.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = Entity.h; path = Classes/Entity.h; sourceTree = "<group>"; };
-		277148891FF5E0290091B974 /* Entity.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = Entity.m; path = Classes/Entity.m; sourceTree = "<group>"; };
-		2771488B1FF5E1120091B974 /* Controller.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = Controller.h; path = Classes/Controller.h; sourceTree = "<group>"; };
-		2771488C1FF5E2600091B974 /* ControllerListener.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = ControllerListener.h; path = Classes/ControllerListener.h; sourceTree = "<group>"; };
-		2771488D1FF5E9250091B974 /* Mary.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = Mary.m; path = Classes/Mary.m; sourceTree = "<group>"; };
-		2771488F1FF625AB0091B974 /* MoveController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = MoveController.h; path = Classes/MoveController.h; sourceTree = "<group>"; };
-		277148901FF6269F0091B974 /* MoveController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = MoveController.m; path = Classes/MoveController.m; sourceTree = "<group>"; };
-		277148921FF63C0E0091B974 /* Controller.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = Controller.m; path = Classes/Controller.m; sourceTree = "<group>"; };
-		277148941FF63CE20091B974 /* ControllerListener.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = ControllerListener.m; path = Classes/ControllerListener.m; sourceTree = "<group>"; };
 		2775F1531FFFF3C500102FD3 /* AboutMenu.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = AboutMenu.h; path = Classes/AboutMenu.h; sourceTree = "<group>"; };
 		2775F1541FFFF40400102FD3 /* AboutMenu.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = AboutMenu.m; path = Classes/AboutMenu.m; sourceTree = "<group>"; };
 		2775F1561FFFF8C600102FD3 /* GameEnum.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = GameEnum.h; path = Classes/GameEnum.h; sourceTree = "<group>"; };
@@ -987,8 +981,6 @@
 		2775F158200002F000102FD3 /* Global.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = Global.m; path = Classes/Global.m; sourceTree = "<group>"; };
 		2775F15A20000A4B00102FD3 /* SelectMenu.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = SelectMenu.h; path = Classes/SelectMenu.h; sourceTree = "<group>"; };
 		2775F15B20000B0600102FD3 /* SelectMenu.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = SelectMenu.m; path = Classes/SelectMenu.m; sourceTree = "<group>"; };
-		2775F15D2000186F00102FD3 /* GameLayer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = GameLayer.h; path = Classes/GameLayer.h; sourceTree = "<group>"; };
-		2775F15E2000189700102FD3 /* GameLayer.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = GameLayer.m; path = Classes/GameLayer.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -1036,7 +1028,6 @@
 			isa = PBXGroup;
 			children = (
 				274106A01FFD1769001C2F35 /* M_s.png */,
-				273E8F6B1FF390B200AB4EA8 /* mario */,
 				274106A31FFD1769001C2F35 /* AB_normal.png */,
 				274106CE1FFD1773001C2F35 /* AB_select.png */,
 				274106C41FFD1771001C2F35 /* about_normal.png */,
@@ -2014,18 +2005,8 @@
 			children = (
 				273E8F5B1FF38FA500AB4EA8 /* AppDelegate.h */,
 				273E8F5C1FF38FA500AB4EA8 /* AppDelegate.m */,
-				2771488B1FF5E1120091B974 /* Controller.h */,
-				277148921FF63C0E0091B974 /* Controller.m */,
-				2771488C1FF5E2600091B974 /* ControllerListener.h */,
-				277148941FF63CE20091B974 /* ControllerListener.m */,
-				277148881FF5DEE40091B974 /* Entity.h */,
-				277148891FF5E0290091B974 /* Entity.m */,
 				277148861FF4FBD60091B974 /* GameScene.h */,
 				277148841FF4E4140091B974 /* GameScene.m */,
-				277148871FF5DE710091B974 /* Mary.h */,
-				2771488D1FF5E9250091B974 /* Mary.m */,
-				2771488F1FF625AB0091B974 /* MoveController.h */,
-				277148901FF6269F0091B974 /* MoveController.m */,
 				274106511FFD0E3E001C2F35 /* MainMenu.h */,
 				274106521FFD0F78001C2F35 /* MainMenu.m */,
 				2775F1531FFFF3C500102FD3 /* AboutMenu.h */,
@@ -2035,8 +2016,14 @@
 				2775F158200002F000102FD3 /* Global.m */,
 				2775F15A20000A4B00102FD3 /* SelectMenu.h */,
 				2775F15B20000B0600102FD3 /* SelectMenu.m */,
-				2775F15D2000186F00102FD3 /* GameLayer.h */,
-				2775F15E2000189700102FD3 /* GameLayer.m */,
+				0F2E77522000A9260057981D /* AnimationManager.h */,
+				0F2E77532000A9260057981D /* AnimationManager.m */,
+				0F2E77562000C3380057981D /* Enemy.h */,
+				0F2E77572000C3380057981D /* Enemy.m */,
+				0F2E77592000CE5E0057981D /* Hero.h */,
+				0F2E775A2000CE5E0057981D /* Hero.m */,
+				0F2E775C2000CF8C0057981D /* GameMap.h */,
+				0F2E775D2000CF8C0057981D /* GameMap.m */,
 			);
 			name = Classes;
 			sourceTree = "<group>";
@@ -2260,7 +2247,6 @@
 				274107141FFD1778001C2F35 /* select3.jpg in Resources */,
 				2741074C1FFD1778001C2F35 /* HuoQiuDaDaoGuaiWu.ogg in Resources */,
 				273E8CBB1FF38FA300AB4EA8 /* Icon-76@2x.png in Resources */,
-				273E8F6C1FF390B300AB4EA8 /* mario in Resources */,
 				274107261FFD1778001C2F35 /* setting_s.png in Resources */,
 				274106F01FFD1778001C2F35 /* EatCoin.ogg in Resources */,
 				274107011FFD1778001C2F35 /* M_n.png in Resources */,
@@ -2303,6 +2289,7 @@
 				273E8D1F1FF38FA300AB4EA8 /* CCConfiguration.m in Sources */,
 				273E8E131FF38FA400AB4EA8 /* CCTableView.m in Sources */,
 				273E8D861FF38FA300AB4EA8 /* CCSprite9Slice.m in Sources */,
+				0F2E77542000A9260057981D /* AnimationManager.m in Sources */,
 				273E8DB51FF38FA300AB4EA8 /* CCEffectRenderer.m in Sources */,
 				273E8D2A1FF38FA300AB4EA8 /* ccFPSImages.m in Sources */,
 				273E8E4B1FF38FA400AB4EA8 /* base64.c in Sources */,
@@ -2316,6 +2303,7 @@
 				273E8D271FF38FA300AB4EA8 /* CCDrawNode.m in Sources */,
 				273E8E771FF38FA400AB4EA8 /* CCBAnimationManager.m in Sources */,
 				273E8D661FF38FA300AB4EA8 /* CCPhysicsNode.m in Sources */,
+				0F2E775E2000CF8C0057981D /* GameMap.m in Sources */,
 				273E8E7D1FF38FA400AB4EA8 /* CCBReader.m in Sources */,
 				273E8ED71FF38FA400AB4EA8 /* mach_timing.c in Sources */,
 				273E8E931FF38FA400AB4EA8 /* OALActionManager.m in Sources */,
@@ -2325,7 +2313,6 @@
 				273E8DF71FF38FA400AB4EA8 /* CCEffectNode.m in Sources */,
 				273E8DF41FF38FA400AB4EA8 /* CCEffectPixellate.m in Sources */,
 				273E8D1B1FF38FA300AB4EA8 /* CCClippingNode.m in Sources */,
-				2771488E1FF5E9250091B974 /* Mary.m in Sources */,
 				273E8E741FF38FA400AB4EA8 /* CCAnimationManager.m in Sources */,
 				273E8DFA1FF38FA400AB4EA8 /* CCEffectStack.m in Sources */,
 				273E8DAE1FF38FA300AB4EA8 /* cocos2d.m in Sources */,
@@ -2336,10 +2323,8 @@
 				273E8DF11FF38FA400AB4EA8 /* CCEffectColorPulse.m in Sources */,
 				273E8EA01FF38FA400AB4EA8 /* OALAudioTrackNotifications.m in Sources */,
 				273E8D7C1FF38FA300AB4EA8 /* CCScene.m in Sources */,
-				277148911FF6269F0091B974 /* MoveController.m in Sources */,
 				273E8E4E1FF38FA400AB4EA8 /* CCFileUtils.m in Sources */,
 				273E8E481FF38FA400AB4EA8 /* CCRendererGLSupport.m in Sources */,
-				277148951FF63CE20091B974 /* ControllerListener.m in Sources */,
 				273E8CDF1FF38FA300AB4EA8 /* CCRendererBasicTypes.m in Sources */,
 				273E8D631FF38FA300AB4EA8 /* CCPhysicsJoint.m in Sources */,
 				273E8D751FF38FA300AB4EA8 /* CCResponder.m in Sources */,
@@ -2365,6 +2350,7 @@
 				273E8E0A1FF38FA400AB4EA8 /* CCControlTextureFactory.m in Sources */,
 				273E8D031FF38FA300AB4EA8 /* CCActionInstant.m in Sources */,
 				273E8D5B1FF38FA300AB4EA8 /* CCParticleSystemBase.m in Sources */,
+				0F2E775B2000CE5E0057981D /* Hero.m in Sources */,
 				273E8E571FF38FA400AB4EA8 /* ccUtils.c in Sources */,
 				273E8DE81FF38FA400AB4EA8 /* CCEffectBrightness.m in Sources */,
 				273E8D061FF38FA300AB4EA8 /* CCActionInterval.m in Sources */,
@@ -2378,14 +2364,13 @@
 				273E8E801FF38FA400AB4EA8 /* CCBsequence.m in Sources */,
 				273E8D451FF38FA300AB4EA8 /* CCNode.m in Sources */,
 				273E8CEE1FF38FA300AB4EA8 /* CCRenderer.m in Sources */,
-				2775F15F2000189700102FD3 /* GameLayer.m in Sources */,
 				273E8DEE1FF38FA400AB4EA8 /* CCEffectColor.m in Sources */,
 				273E8D4C1FF38FA300AB4EA8 /* CCParallaxNode.m in Sources */,
-				277148931FF63C0E0091B974 /* Controller.m in Sources */,
 				273E8E6F1FF38FA400AB4EA8 /* ZipUtils.m in Sources */,
 				273E8CE71FF38FA300AB4EA8 /* CCTouch.m in Sources */,
 				273E8CFA1FF38FA300AB4EA8 /* CCAction.m in Sources */,
 				273E8D2F1FF38FA300AB4EA8 /* CCLabelBMFont.m in Sources */,
+				0F2E77582000C3380057981D /* Enemy.m in Sources */,
 				273E8EE51FF38FA400AB4EA8 /* OALTools.m in Sources */,
 				273E8E831FF38FA400AB4EA8 /* CCBSequenceProperty.m in Sources */,
 				273E8E401FF38FA400AB4EA8 /* CCGLView.m in Sources */,
@@ -2406,7 +2391,6 @@
 				273E8D231FF38FA300AB4EA8 /* CCDirector.m in Sources */,
 				2775F159200002F000102FD3 /* Global.m in Sources */,
 				273E8CD51FF38FA300AB4EA8 /* CCRendererGLSupport.m in Sources */,
-				2771488A1FF5E0290091B974 /* Entity.m in Sources */,
 				273E8D3C1FF38FA300AB4EA8 /* CCLayoutBox.m in Sources */,
 				273E8E691FF38FA400AB4EA8 /* TGAlib.m in Sources */,
 				273E8E861FF38FA400AB4EA8 /* CCBLocalizationManager.m in Sources */,
@@ -2565,6 +2549,7 @@
 					"-lz",
 					"-ObjC",
 				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.master.Super-Mario";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -2597,6 +2582,7 @@
 					"-lz",
 					"-ObjC",
 				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.master.Super-Mario";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				VALIDATE_PRODUCT = YES;
 				WRAPPER_EXTENSION = app;
