@@ -10,7 +10,7 @@
 #import "SelectMenu.h"
 #import "MainMenu.h"
 #import "Global.h"
-#import "GameLayer.h"
+#import "GameScene.h"
 
 @implementation SelectMenu
 
@@ -63,9 +63,9 @@
 
 -(void)menuBegin{
     [[Global getGlobalInstance] setCurrentLevel:self.m_nCurPage];
-    GameLayer *pGameLayer = [[GameLayer alloc]init];
+    GameScene *pGameScene = [[GameScene alloc]init];
     CCScene *pScene = [[CCScene alloc]init];
-    [pScene addChild:pGameLayer];
+    [pScene addChild:pGameScene];
     [[CCDirector sharedDirector] replaceScene:pScene];
     
 }
