@@ -19,12 +19,16 @@
 
 // -----------------------------------------------------------------
 // properties
-
+@property CGSize tileSize;
 // -----------------------------------------------------------------
 // methods
 
 + (instancetype)node;
 - (instancetype)init;
+- (CGPoint)positionToTileCoord:(CGPoint)pos;
+- (CGPoint)tilecoordToPosition:(CGPoint)tileCoord;
+- (TileType)tileTypeforPos:(CGPoint)tileCoord;
++ (GameMap*)getGameMap;
 
 // -----------------------------------------------------------------
 

@@ -45,6 +45,9 @@
 
 + (instancetype)node;
 - (instancetype)init;
+- (CGRect)getEnemyRect;
+- (void)enemyCollistionH;
+- (void)enemyCollistionV;
 - (void)checkState;
 - (void)stopEnemyUpdate;
 - (enum EnemyVSHero)checkCollisionWithHero;
@@ -53,6 +56,8 @@
 
 - (void)forKilledByBullet;
 - (void)setNonVisibleForKilledByBullet;
+
+- (void)setEnemyState:(enum EnemyState)state;
 // -----------------------------------------------------------------
 
 @end
